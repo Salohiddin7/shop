@@ -1,0 +1,46 @@
+@import './fonts.scss';
+
+:root {
+    --font-family: "OpenSans"
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+button,input {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.button {
+    border-radius: 29px;
+    width: 100%;
+    box-shadow: 0 10px 40px 0 rgba(122, 129, 190, 0.16);
+    background: #fe724c;   
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+}
+
+.container {
+    width: 80%;
+    padding: 0 60px;
+    margin: 40px 0;
+}

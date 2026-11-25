@@ -1,0 +1,33 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    li {
+        &.disabled {
+            display: none;
+        }
+        &.selected {
+            a {
+                background: #FE724C;
+                color: white;
+            }
+        }
+        a {
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            background: white;
+            border-radius: 50%;
+            border: 2px solid #FE724C;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:  #FE724C;
+            font-family: var(--font-family);
+            &:hover {
+                background: rgba(0,0,0,0.20);
+            }
+        }
+    }
+}
